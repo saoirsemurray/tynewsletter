@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TY Newsletter 2016-2017</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		html, body {
+			background-color: #ffc100;
+			font-family: "Trebuchet MS"
+
+
+		}
+		.row#menu {
+			background-color: #68875E;
+			color: #FFFFFF;
+			font-size: 20px;
+
+		}
+		h1 
+		{color:#599042;
+			font-size:45px;
+		}
+		a{
+			color:white;
+		}
+		.row#mainbody {
+			color: #61111a;
+			font-size:20px;
+		}
+		.row#block {
+			color:#ffc100;
+		}
+		.row#issues {
+			color: #3e6927;
+			font-size: 70px;
+ 		}
+		
+		.row#gallery {
+			color: #3e6927;
+			font-size: 70px;
+		}
+        .container{
+			margin: 0 auto;
+			width: 90%;
+		}
+		.linktext{
+			color:#61111a;
+			font-size: 25px;
+		}
+		.href{
+			font-color:#FFFFFF;
+
+		}
+			* {box-sizing:border-box}
+
+			body {font-family: Verdana,sans-serif;margin:0}
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			}
+
+			.mySlides {
+			    display: none;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			  cursor: pointer;
+			  position: absolute;
+			  top: 50%;
+			  width: auto;
+			  margin-top: -22px;
+			  padding: 16px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 18px;
+			  transition: 0.6s ease;
+			  border-radius: 0 3px 3px 0;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			  right: 0;
+			  border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			  background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			  color: #f2f2f2;
+			  font-size: 15px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  bottom: 8px;
+			  width: 100%;
+			  text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			  cursor:pointer;
+			  height: 13px;
+			  width: 13px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			  background-color: #717171;
+			}
+
+			/* Fading animation */ 
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+
+			.pad-below {
+				padding-bottom: 50px
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}		
+		</style>	
+</head>
+<body>
+	<div class="container"> 
+		<header class="row"> 
+			<img src="finalcrest.gif" width=200 class="img-responsive 	pull-left">
+			<h1>Loreto College Crumlin - TY Newsletter 2016-2017</h1>
+		</header>
+		<div class="row" id="menu">2016-2017
+			<div class="pull-right"><a href="#issues">Issues</a> |<a href="#gallery">TY Gallery</a></div>
+		</div>
+		<br>
+		<div class="slideshow-container">
+		  <div class="mySlides">
+		    <div class="numbertext">1 / 3</div>
+		    <img src="carlingford.jpg" style="display: block; margin: 0 auto;"> 
+		  </div>
+
+		  <div class="mySlides">
+		    <div class="numbertext">2 / 3</div>
+		    <img src="carlingford3.jpg" style="display: block; margin: 0 auto; height: 30%; width: 30%;">
+		  </div>
+
+		  <div class="mySlides">
+		    <div class="numbertext">3 / 3</div>
+		    <img src="carlingford4.jpg" style="display: block; margin: 0 auto; height: 50%; width: 50%;">
+		  </div>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+
+		<div class="row" id="mainbody">Hey! Welcome to the Loreto College Crumlin TY Newsletter. What is TY? TY is a one year programme after your Junior Cycle filled with opportunities to have new experiences and develop new skills. Doing this through work experiences, musicals and TY Trips. Here, we can keep you up to date on your upcoming trips, read blog posts from your fellow students, or comment some suggestions on what you think we should do next in TY!</div>
+		<br>
+		<div class="row" id="block"></div>
+		<div class="row" id="issues">Issues</div>
+		<div class="row">
+			<a href="decemberissue.pdf" target="_blank" class="linktext">December Newsletter!!!</a>
+		</div>
+		<div class="row" id="gallery"> TY Gallery</div>
+		<div class="row">
+			<img src="carlingford2.jpg" width="65%" class="img-responsive pull-left pad-below">
+		</div>
+		<div class="row">
+			<img src="rowing.jpg" width="65%" class="img-responsive pull-right pad-below">
+		</div>
+		<div class="row">
+			<img src="dance.jpg" width="65%" class="img-responsive pull-left pad-below">
+		</div>
+		<div class="row">
+			<img src="rowing2.jpg" width="65%" class="img-responsive pull-right pad-below">
+		</div>
+			<CENTER>
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/0D2iOGGE5uw" frameborder="0" allowfullscreen></iframe>
+			</CENTER>
+		<br>
+		<div class="row">
+			<textarea id="comments" name="comment" style="font-family:sans-serif;font-size:140%;"></textarea>
+		</div>
+		<div class="row">
+			<a href="comments.html?comment" class="btn btn-default" id="submit">Submit</a>
+		</div>
+		<br>
+		<div>		
+			<footer class="row"> 2017 &copy;</footer>
+		</div>
+
+		</div>
+		<script type="text/javascript">
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < slides.length; i++) {
+			        slides[i].style.display = "none"; 
+			    }
+			    slideIndex++;
+			    if (slideIndex> slides.length) {slideIndex = 1} 
+			    slides[slideIndex-1].style.display = "block"; 
+			    setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+
+			(function (global) {
+    			document.getElementById("submit").addEventListener("click", function () {
+       				global.localStorage.setItem("mySharedData", document.getElementById("comments").value);
+    			}, false);
+			}(window));
+
+		</script>
+	</body>
+</html
