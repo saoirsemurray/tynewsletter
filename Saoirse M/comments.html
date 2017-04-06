@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TY Newsletter 2016-2017</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+
+		html, body {
+			background-color: #ffc100;
+			font-family: "Trebuchet MS"
+
+
+		}
+		.row#menu {
+			background-color: #68875E;
+			color: #FFFFFF;
+			font-size: 20px;
+
+		}
+		h1 
+		{color:#599042;
+			font-size:45px;
+		}
+		h2{
+			color:#3a6926;
+		}
+		a{
+			color:white;
+		}
+		.row#mainbody {
+			color: #61111a;
+			font-size:20px;
+		}
+		.row#block {
+			color:#ffc100;
+		}
+		.row#issues {
+			color: #3e6927;
+			font-size: 70px;
+ }
+		
+		.row#gallery {
+			color: #3e6927;
+			font-size: 70px;
+}
+        .container{
+			margin: 0 auto;
+			width: 90%;
+		}
+		.linktext{
+			color:#61111a;
+			font-size: 25px;
+		}
+		.href{
+			font-color:#FFFFFF;
+		
+		</style>	
+</head>
+<body>
+	<div class="container">
+		<header class="row"> 
+			<a href="index.html"><img src="finalcrest.gif" width=200 class="img-responsive 	pull-left"></a>
+			<h1>Loreto College Crumlin - TY Newsletter 2016-2017</h1>
+		</header>
+		<div class="row">
+			<h2>Comments</h2>
+		</div>
+		<div class="row" style="background-color: white">
+			<p style="text-align: center;">Your comment has been submitted for review!</p>
+			<CENTER><textarea id="output"></textarea></CENTER>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		
+		(function (global) {
+		    document.getElementById("output").value = global.localStorage.getItem("mySharedData");
+		}(window));		
+	</script>
+</body>
+</html
